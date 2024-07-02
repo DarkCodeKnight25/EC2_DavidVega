@@ -58,18 +58,13 @@ class MainActivity : ComponentActivity() {
             NavHost(navController = navController, startDestination = "menu") {
                 composable("menu") { MenuScreen(navController) }
 
-                composable("jubilacion") {
-                //JubilacionScreen() }
+                composable("formulario") {
+                    Formulario()
                 }
-                composable("NumeroMenor") {
-                //MenorNUmeroScreen() }
+                composable("listas") {
+                    listas()
                 }
-                composable("MatriculaAlumno") {
-                //MatriculaAlumnoScreen() }
-                }
-                composable("CuadradoMitad") {
-                //CuadradoYMitadScreen() }
-                }
+
 
 
                 // Agrega aquí las demás pantallas según sea necesario

@@ -33,29 +33,11 @@ fun MenuScreen(navController: NavController) {
                 style = TextStyle(fontWeight = FontWeight.Bold, fontSize = 30.sp)
             )
             MySpace(16)
-            Button(
-                onClick = {
-                    navController.navigate("jubilacion")
-                },
-                colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFFFFC107),
-                    contentColor = Color.White
-                ),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 16.dp) // Padding horizontal para el botón
-            ) {
-                Text(text = "REGISTRO",
-                    style = TextStyle(
-                        fontSize = 16.sp,
-                        fontWeight = FontWeight.Normal
-                    )
-                )
-            }
+
             MySpace(16)
             Button(
                 onClick = {
-                    navController.navigate("NumeroMenor")
+                    navController.navigate("formulario")
                 },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color(0xFFFFC107),
@@ -75,7 +57,7 @@ fun MenuScreen(navController: NavController) {
             MySpace(16)
             Button(
                 onClick = {
-                    navController.navigate("MatriculaAlumno")
+                    navController.navigate("listas")
                 },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color(0xFFFFC107),
