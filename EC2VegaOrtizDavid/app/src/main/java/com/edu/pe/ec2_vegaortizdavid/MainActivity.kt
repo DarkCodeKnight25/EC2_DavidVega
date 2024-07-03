@@ -1,39 +1,5 @@
 package com.edu.pe.ec2_vegaortizdavid
 
-//import android.os.Bundle
-//import androidx.activity.ComponentActivity
-//import androidx.activity.compose.setContent
-//import androidx.activity.enableEdgeToEdge
-//import androidx.compose.foundation.layout.fillMaxSize
-//import androidx.compose.foundation.layout.padding
-//import androidx.compose.material3.Scaffold
-//import androidx.compose.material3.Text
-//import androidx.compose.runtime.Composable
-//import androidx.compose.ui.Modifier
-//import androidx.compose.ui.tooling.preview.Preview
-//import com.edu.pe.ec2_vegaortizdavid.ui.theme.EC2VegaOrtizDavidTheme
-//
-//class MainActivity : ComponentActivity() {
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        enableEdgeToEdge()
-//        setContent {
-//            EC2VegaOrtizDavidTheme {
-//                Main()
-//            }
-//        }
-//    }
-//}
-//
-////@Preview(showBackground = true)
-////@Composable
-////fun GreetingPreview() {
-////    EC2VegaOrtizDavidTheme {
-////
-////    }
-////}
-
-
 import MenuScreen
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -65,12 +31,7 @@ class MainActivity : ComponentActivity() {
                     listas()
                 }
 
-
-
-                // Agrega aquí las demás pantallas según sea necesario
             }
-
-
         }
     }
 }
